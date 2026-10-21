@@ -4,3 +4,11 @@
 .env
 .env
 *.ipynb_checkpoints
+
+# Local dependencies, caches, and credentials
+__pycache__/
+*.py[cod]
+.venv/
+.env.*
+!.env.example
+!.env.sample
